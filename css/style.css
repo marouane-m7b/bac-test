@@ -1,0 +1,128 @@
+body {
+    direction: rtl;
+}
+
+.elements {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    place-items: center;
+    height: 50px;
+}
+
+.last {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+    height: 100px;
+}
+.last2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    place-items: center;
+    height: 100px;
+}
+.last2 .first {
+    grid-column: 1/6;
+}
+.last2 .click {
+    grid-column: 1/6;
+}
+@media (max-width: 992px) {
+    .elements {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        height: 100px;
+    }
+
+    .first {
+        grid-column: 1/6;
+        text-align: center;
+    }
+
+    .metier {
+        display: none;
+    }
+
+    input:disabled {
+        display: none;
+    }
+    .last {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+        height: 100px;
+    }
+    .last2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        place-items: center;
+        height: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .elements {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        height: 150px;
+    }
+
+    .first {
+        grid-column: 1/5;
+        text-align: center;
+    }
+
+    .metier {
+        display: none;
+    }
+
+    input:disabled {
+        display: none;
+    }
+}
+
+
+@media (max-width: 465px) {
+    .elements {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 150px;
+    }
+
+    .first {
+        grid-column: 1/3;
+        text-align: center;
+    }
+
+    .metier {
+        display: none;
+    }
+
+    input:disabled {
+        display: none;
+    }
+
+    .last {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+    }
+    .last2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+    }
+}
+
+#cmnt {
+    display: none;
+    margin: 0;
+    padding: 3px 15px;
+}
+
+input {
+    width: 100px;
+}
+input::placeholder {
+    text-align: center;
+}
