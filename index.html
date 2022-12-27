@@ -6,238 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-    <div class="container">
-        <div class="elements metier">
-            <span>المواد</span>
-            <span>الفرض الأول</span>
-            <span>الفرض الثاني</span>
-            <span>الفرض الثالث</span>
-            <span>الفرض الرابع</span>
-            <span>الأنشطة المندمجة</span>
-            <span>المعامل</span>
-        </div>
-        <div class="elements">
-            <div class="first">المواظبة والسلوك</div>
-            <input type="number" name="" id="solok-1" placeholder="الفرض 1">
-            <input type="number" name="" id="solok-2" placeholder="الفرض 2" disabled>
-            <input type="number" name="" id="solok-3" placeholder="الفرض 3" disabled>
-            <input type="number" name="" id="solok-4" placeholder="الفرض 4" disabled>
-            <input type="number" name="" id="solok-5" placeholder="الفرض 5" disabled>
-            <input type="number" name="" id="solok-m3ml" value="1" placeholder="المعامل">
-        </div>
-        <div class="elements">
-            <div class="first">التربية الإسلامية</div>
-            <input type="number" name="" id="ei-1" placeholder="الفرض 1">
-            <input type="number" name="" id="ei-2" placeholder="الفرض 2">
-            <input type="number" name="" id="ei-3" placeholder="الفرض 3" disabled>
-            <input type="number" name="" id="ei-4" placeholder="الفرض 4">
-            <input type="number" name="" id="ei-5" placeholder="الفرض 5" disabled>
-            <input type="number" name="" id="ei-m3ml" value="2" placeholder="المعامل">
-        </div>
-        <div class="elements">
-            <div class="first">التربية البدنية</div>
-            <input type="number" name="" id="es-1" placeholder="الفرض 1">
-            <input type="number" name="" id="es-2" placeholder="الفرض 2">
-            <input type="number" name="" id="es-3" placeholder="الفرض 3">
-            <input type="number" name="" id="es-4" placeholder="الفرض 4" disabled>
-            <input type="number" name="" id="es-5" placeholder="الفرض 5" disabled>
-            <input type="number" name="" id="es-m3ml" value="4" placeholder="المعامل">
-        </div>
-        <div class="elements">
-            <div class="first">الرياضيات</div>
-            <input type="number" name="" id="mat-1" placeholder="الفرض 1">
-            <input type="number" name="" id="mat-2" placeholder="الفرض 2">
-            <input type="number" name="" id="mat-3" placeholder="الفرض 3">
-            <input type="number" name="" id="mat-4" placeholder="الفرض 4" disabled>
-            <input type="number" name="" id="mat-5" placeholder="الفرض 5" disabled>
-            <input type="number" name="" id="mat-m3ml" value="7" placeholder="المعامل">
-        </div>
-        <div class="elements">
-            <div class="first">الفلسفة</div>
-            <input type="number" name="" id="ph-1" placeholder="الفرض 1">
-            <input type="number" name="" id="ph-2" placeholder="الفرض 2">
-            <input type="number" name="" id="ph-3" placeholder="الفرض 3" disabled>
-            <input type="number" name="" id="ph-4" placeholder="الفرض 4">
-            <input type="number" name="" id="ph-5" placeholder="الفرض 5" disabled>
-            <input type="number" name="" id="ph-m3ml" value="2" placeholder="المعامل">
-        </div>
-        <div class="elements">
-            <div class="first">الفيزياء و الكيمياء</div>
-            <input type="number" name="" id="pc-1" placeholder="الفرض 1">
-            <input type="number" name="" id="pc-2" placeholder="الفرض 2">
-            <input type="number" name="" id="pc-3" placeholder="الفرض 3" disabled>
-            <input type="number" name="" id="pc-4" placeholder="الفرض 4">
-            <input type="number" name="" id="pc-5" placeholder="الفرض 5" disabled>
-            <input type="number" name="" id="pc-m3ml" value="5" placeholder="المعامل">
-        </div>
-        <div class="elements">
-            <div class="first">اللغة الإنجليزية</div>
-            <input type="number" name="" id="eng-1" placeholder="الفرض 1">
-            <input type="number" name="" id="eng-2" placeholder="الفرض 2">
-            <input type="number" name="" id="eng-3" placeholder="الفرض 3" disabled>
-            <input type="number" name="" id="eng-4" placeholder="الفرض 4">
-            <input type="number" name="" id="eng-5" placeholder="الفرض 5" disabled>
-            <input type="number" name="" id="eng-m3ml" value="2" placeholder="المعامل">
-        </div>
-        <div class="elements">
-            <div class="first">اللغة العربية</div>
-            <input type="number" name="" id="ar-1" placeholder="الفرض 1">
-            <input type="number" name="" id="ar-2" placeholder="الفرض 2">
-            <input type="number" name="" id="ar-3" placeholder="الفرض 3" disabled>
-            <input type="number" name="" id="ar-4" placeholder="الفرض 4">
-            <input type="number" name="" id="ar-5" placeholder="الفرض 5" disabled>
-            <input type="number" name="" id="ar-m3ml" value="2" placeholder="المعامل">
-        </div>
-        <div class="elements">
-            <div class="first">اللغة الفرنسية</div>
-            <input type="number" name="" id="fr-1" placeholder="الفرض 1">
-            <input type="number" name="" id="fr-2" placeholder="الفرض 2">
-            <input type="number" name="" id="fr-3" placeholder="الفرض 3">
-            <input type="number" name="" id="fr-4" placeholder="الفرض 4">
-            <input type="number" name="" id="fr-5" placeholder="الفرض 5">
-            <input type="number" name="" id="fr-m3ml" value="4" placeholder="المعامل">
-        </div>
-        <div class="elements">
-            <div class="first">علوم الحياة و الأرض</div>
-            <input type="number" name="" id="svt-1" placeholder="الفرض 1">
-            <input type="number" name="" id="svt-2" placeholder="الفرض 2">
-            <input type="number" name="" id="svt-3" placeholder="الفرض 3">
-            <input type="number" name="" id="svt-4" placeholder="الفرض 4">
-            <input type="number" name="" id="svt-5" placeholder="الفرض 5" disabled>
-            <input type="number" name="" id="svt-m3ml" value="7" placeholder="المعامل">
-        </div>
-        <div class="last">
-            <div class="first">معدل الدورة 1</div>
-            <input type="number" name="" id="all" onlyread>
-            <input type="submit" value="click" id="calc">
-        </div>
-    </div>
-    <hr>
-    <div class="container">
-        <div class="elements metier">
-            <span>المواد</span>
-            <span>الفرض الأول</span>
-            <span>الفرض الثاني</span>
-            <span>الفرض الثالث</span>
-            <span>الفرض الرابع</span>
-            <span>الأنشطة المندمجة</span>
-            <span>المعامل</span>
-        </div>
-        <div class="elements">
-            <div class="first">المواظبة والسلوك</div>
-            <input type="number" name="" id="d2solok-1" placeholder="الفرض 1">
-            <input type="number" name="" id="d2solok-2" placeholder="الفرض 2" disabled>
-            <input type="number" name="" id="d2solok-3" placeholder="الفرض 3" disabled>
-            <input type="number" name="" id="d2solok-4" placeholder="الفرض 4" disabled>
-            <input type="number" name="" id="d2solok-5" placeholder="الفرض 5" disabled>
-            <input type="number" name="" id="d2solok-m3ml" value="1" placeholder="المعامل">
-        </div>
-        <div class="elements">
-            <div class="first">التربية الإسلامية</div>
-            <input type="number" name="" id="d2ei-1" placeholder="الفرض 1">
-            <input type="number" name="" id="d2ei-2" placeholder="الفرض 2">
-            <input type="number" name="" id="d2ei-3" placeholder="الفرض 3" disabled>
-            <input type="number" name="" id="d2ei-4" placeholder="الفرض 4">
-            <input type="number" name="" id="d2ei-5" placeholder="الفرض 5" disabled>
-            <input type="number" name="" id="d2ei-m3ml" value="2" placeholder="المعامل">
-        </div>
-        <div class="elements">
-            <div class="first">التربية البدنية</div>
-            <input type="number" name="" id="d2es-1" placeholder="الفرض 1">
-            <input type="number" name="" id="d2es-2" placeholder="الفرض 2">
-            <input type="number" name="" id="d2es-3" placeholder="الفرض 3">
-            <input type="number" name="" id="d2es-4" placeholder="الفرض 4" disabled>
-            <input type="number" name="" id="d2es-5" placeholder="الفرض 5" disabled>
-            <input type="number" name="" id="d2es-m3ml" value="4" placeholder="المعامل">
-        </div>
-        <div class="elements">
-            <div class="first">الرياضيات</div>
-            <input type="number" name="" id="d2mat-1" placeholder="الفرض 1">
-            <input type="number" name="" id="d2mat-2" placeholder="الفرض 2">
-            <input type="number" name="" id="d2mat-3" placeholder="الفرض 3">
-            <input type="number" name="" id="d2mat-4" placeholder="الفرض 4" disabled>
-            <input type="number" name="" id="d2mat-5" placeholder="الفرض 5" disabled>
-            <input type="number" name="" id="d2mat-m3ml" value="7" placeholder="المعامل">
-        </div>
-        <div class="elements">
-            <div class="first">الفلسفة</div>
-            <input type="number" name="" id="d2ph-1" placeholder="الفرض 1">
-            <input type="number" name="" id="d2ph-2" placeholder="الفرض 2">
-            <input type="number" name="" id="d2ph-3" placeholder="الفرض 3" disabled>
-            <input type="number" name="" id="d2ph-4" placeholder="الفرض 4">
-            <input type="number" name="" id="d2ph-5" placeholder="الفرض 5" disabled>
-            <input type="number" name="" id="d2ph-m3ml" value="2" placeholder="المعامل">
-        </div>
-        <div class="elements">
-            <div class="first">الفيزياء و الكيمياء</div>
-            <input type="number" name="" id="d2pc-1" placeholder="الفرض 1">
-            <input type="number" name="" id="d2pc-2" placeholder="الفرض 2">
-            <input type="number" name="" id="d2pc-3" placeholder="الفرض 3" disabled>
-            <input type="number" name="" id="d2pc-4" placeholder="الفرض 4">
-            <input type="number" name="" id="d2pc-5" placeholder="الفرض 5" disabled>
-            <input type="number" name="" id="d2pc-m3ml" value="5" placeholder="المعامل">
-        </div>
-        <div class="elements">
-            <div class="first">اللغة الإنجليزية</div>
-            <input type="number" name="" id="d2eng-1" placeholder="الفرض 1">
-            <input type="number" name="" id="d2eng-2" placeholder="الفرض 2">
-            <input type="number" name="" id="d2eng-3" placeholder="الفرض 3" disabled>
-            <input type="number" name="" id="d2eng-4" placeholder="الفرض 4">
-            <input type="number" name="" id="d2eng-5" placeholder="الفرض 5" disabled>
-            <input type="number" name="" id="d2eng-m3ml" value="2" placeholder="المعامل">
-        </div>
-        <div class="elements">
-            <div class="first">اللغة العربية</div>
-            <input type="number" name="" id="d2ar-1" placeholder="الفرض 1">
-            <input type="number" name="" id="d2ar-2" placeholder="الفرض 2">
-            <input type="number" name="" id="d2ar-3" placeholder="الفرض 3" disabled>
-            <input type="number" name="" id="d2ar-4" placeholder="الفرض 4">
-            <input type="number" name="" id="d2ar-5" placeholder="الفرض 5" disabled>
-            <input type="number" name="" id="d2ar-m3ml" value="2" placeholder="المعامل">
-        </div>
-        <div class="elements">
-            <div class="first">اللغة الفرنسية</div>
-            <input type="number" name="" id="d2fr-1" placeholder="الفرض 1">
-            <input type="number" name="" id="d2fr-2" placeholder="الفرض 2">
-            <input type="number" name="" id="d2fr-3" placeholder="الفرض 3">
-            <input type="number" name="" id="d2fr-4" placeholder="الفرض 4">
-            <input type="number" name="" id="d2fr-5" placeholder="الفرض 5">
-            <input type="number" name="" id="d2fr-m3ml" value="4" placeholder="المعامل">
-        </div>
-        <div class="elements">
-            <div class="first">علوم الحياة و الأرض</div>
-            <input type="number" name="" id="d2svt-1" placeholder="الفرض 1">
-            <input type="number" name="" id="d2svt-2" placeholder="الفرض 2">
-            <input type="number" name="" id="d2svt-3" placeholder="الفرض 3">
-            <input type="number" name="" id="d2svt-4" placeholder="الفرض 4">
-            <input type="number" name="" id="d2svt-5" placeholder="الفرض 5" disabled>
-            <input type="number" name="" id="d2svt-m3ml" value="7" placeholder="المعامل">
-        </div>
-        <div class="last">
-            <div class="first">معدل الدورة 2</div>
-            <input type="number" name="" id="d2all" onlyread>
-            <input type="submit" value="click" id="d2calc">
-        </div>
-    </div>
-    <hr>
-    <div class="container">
-        <div class="last2">
-            <div class="first">معدل الدورة 2</div>
-            <input type="number" name="" id="dawra1" placeholder="الدورة 1">
-            <input type="number" name="" id="dawra2" placeholder="الدورة 2">
-            <input type="number" name="" id="watani" placeholder="الوطني">
-            <input type="number" name="" id="jihawi" placeholder="الجهوي">
-            <input type="number" name="" id="result" placeholder="النتيجة">
-            <input type="submit" value="click" id="allCalc" class="click">
-        </div>
+<body id="body" style="overflow: hidden;">
+    <div class="container2">
+        <label for="checkbox" class="toggler">
+            <input type="checkbox" id="checkbox">
+            <span class="ball"></span>
+            <i class="ri-sun-line sun"></i>
+            <i class="ri-moon-line moon"></i>
+        </label>
+        <a href="semestre.html">
+            <div class="title2">حساب معدل الدورة</div>
+        </a>
+        <a href="national.html">
+            <div class="title2">حساب معدل الوطني</div>
+        </a>
+        <a href="bacc.html">
+            <div class="title2">حساب المعدل السنوي</div>
+        </a>
+        <a href="need.html">
+            <div class="title2">شحال خاص باش تنجج</div>
+        </a>
+        <a href="needx.html">
+            <div class="title2">شحال خاص باش تجيب 'x'</div>
+        </a>
+        <a href="count.html">
+            <div class="title2">شحال باقي للوطني</div>
+        </a>
     </div>
 
-    <script src="js/main.js"></script>
+    <script src="js/toggle.js"></script>
+    </script>
 </body>
 
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
